@@ -1,4 +1,4 @@
 module.exports = {
-    PORT: 4000,
+    PORT: 5000,
     DB: 'mongodb://localhost:27017/crud-mean',
 }

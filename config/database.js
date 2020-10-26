@@ -16,7 +16,7 @@ const termination = chalk.bold.magenta;
 
 // export thus function and import it in the server.js file
 module.exports = function() {
-    // connect the mongoose database
+    // create the mongoose database for handling all the events
     mongoose.connect(dbURL);
 
     // text display on connection
